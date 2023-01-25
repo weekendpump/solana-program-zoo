@@ -666,4 +666,7 @@ export const SOLANA_PROGRAM_IDS: IMap<IMap<ISolanaProgramEnvironmentIds>> = {
   [SolanaProgramType.HadeSwap]: {
     v1: fillProgramEnvironments('hadeK9DLv9eA7ya5KCTqSvSvRZeJC3JgD5a9Y3CNbvu'),
   },
+  [SolanaProgramType.MagicEdenNFTPool]: {
+    v1: fillProgramEnvironments('mmm3XBJg5gk8XJxEKBvdgptZz6SgK4tXvn36sodowMc'),
+  },
 };

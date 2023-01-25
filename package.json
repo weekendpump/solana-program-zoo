@@ -1,6 +1,6 @@
 {
   "name": "@wknd/solana-program-zoo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Program ids, helpers and definitions for smoother Solana dev experience",
   "author": "Weekend Pump",
   "license": "(MIT OR Apache-2.0)",
@@ -16,10 +16,17 @@
     "build:browser": "rollup -c --bundleConfigAsCjs",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weekendpump/solana-program-zoo.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "tslib": "2.4.1",
     "typescript": "4.9.4",
-    "@wknd/solana-utils": "0.0.12",
+    "@wknd/solana-utils": "0.0.14",
     "@solana/web3.js": "1.73.0"
   },
   "devDependencies": {

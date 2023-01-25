@@ -64,6 +64,7 @@ export enum SolanaProgramType {
   LifinitySwap = 'LIFINITY_SWAP',
   LiquidTokenStaking = 'LIQUID_TOKEN_STAKING',
   MagicEdenNFT = 'MAGIC_EDEN_NFT',
+  MagicEdenNFTPool = 'MAGIC_EDEN_NFT_POOL',
   MangoGovernance = 'MANGO_GOVERNANCE',
   MangoICO = 'MANGO_ICO',
   MangoMarkets = 'MANGO_MARKETS',
