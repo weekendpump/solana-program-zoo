@@ -663,4 +663,7 @@ export const SOLANA_PROGRAM_IDS: IMap<IMap<ISolanaProgramEnvironmentIds>> = {
   [SolanaProgramType.SDriveRegister]: {
     v1: fillProgramEnvironments('ErcW8xB9381TEhDUC1auGPXSpF7qMMhM1khSj4ysZTAW'),
   },
+  [SolanaProgramType.HadeSwap]: {
+    v1: fillProgramEnvironments('hadeK9DLv9eA7ya5KCTqSvSvRZeJC3JgD5a9Y3CNbvu'),
+  },
 };

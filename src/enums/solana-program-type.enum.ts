@@ -45,6 +45,7 @@ export enum SolanaProgramType {
   GokiSigner = 'GOKI_SIGNER',
   GokiWallet = 'GOKI_WALLET',
   GooseFx = 'GOOSE_FX',
+  HadeSwap = 'HADE_SWAP',
   Hedge = 'HEDGE',
   HeliumCredits = 'HELIUM_CREDITS',
   Hubble = 'HUBBLE',
